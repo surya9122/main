@@ -1,0 +1,218 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: 'Nunito Sans', sans-serif;
+}
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar
+{
+    background-image: linear-gradient(to right, #000000,#b4be1c );
+    padding: 0 !important;
+}
+.navbar-nav
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    color: azure !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.fa-bars
+{
+    color: azure;
+    font-size: 20px !important;
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+.navbar-brand
+{
+    color: azure !important;
+    font-weight: 600;
+}
+#banner
+{
+    background-image: url();
+    background-image: url(audi-pic-1400x700.jpg);
+    height: 700px;
+    width: 1400px;
+    opacity: 1;
+    color: rgb(0, 0, 0);
+    padding-top: 5%; 
+}
+#banner2
+{
+    background-image: linear-gradient(to right, #000000,#b4be1c );
+    height: 100px;
+    width: 1519px;
+    opacity: 1;
+    color: rgb(255, 255, 255);
+    padding-top: 0%; 
+}
+#banner2 .company2
+{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5px;
+    text-align: center;
+}
+#banner2 .btn-primary1
+{
+    margin: 0px 550px;
+    box-shadow: #403440;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #ebecee,#e5e8eb );
+}
+
+.company
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.company::before
+{
+    content: '';
+    background: #070707;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.company::after
+{
+    content: '';
+    background: #070707;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    display: block;
+    transform: translateY(-5px);
+}
+.sentence
+{
+    font-weight: 300;
+    color: rgb(58, 58, 58);
+    text-align: center;
+}
+.title
+{
+    text-align: center;
+}
+.title::before
+{
+    content: '';
+    background: #070707;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.title::after
+{
+    content: '';
+    background: #070707;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+{
+    text-align: center;
+
+}
+.col-md-6
+{
+    div {
+        text-align:center;
+    }
+}
+.intro
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+    text-align: right;
+    text-transform: uppercase;
+}
+#car-list
+{
+    padding: 80px 0;
+}
+.car-list img
+{
+    width: 200px;
+    height: 160px;
+    margin-top: 20px;
+}
+.car-list
+{
+    padding: 5px;
+}
+.car-list
+{
+    padding: 5px;
+    margin-top: 25px;
+    text-align: center;
+}
+#car-list .btn-primary
+{
+    
+    box-shadow: #403434;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #00196d,#0026ff );
+
+}
+#footer
+{
+    background-image: linear-gradient(to right, #000000,#b4be1c);
+    color: #fff;
+}
+.footer-box
+{
+    padding: 20px;
+}
+.footer-box img
+{
+    width: 120px;
+    margin-bottom: 20px;
+}
+.footer-box .fa
+{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #680000,hsl(0, 0%, 0%) );
+}
